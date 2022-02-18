@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Pokecard from "./Pokecard";
 export class Pokedex extends Component {
   static defaultProps = {
-    pokeList: [
+    pokemon: [
       { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
       { id: 7, name: "Squirtle", type: "water", base_experience: 63 },
       { id: 11, name: "Metapod", type: "bug", base_experience: 72 },
@@ -14,24 +14,24 @@ export class Pokedex extends Component {
     ],
   };
 
-  renderList() {
-    // const { id, name, type, base_experience } = this.props.pokeList;
-    return this.props.pokeList.map((poke) => {
+  renderPokemon() {
+    return this.props.pokemon.map((p) => {
+      // console.log(p);
       return (
         <Pokecard
-          key={poke.id}
-          id={poke.id}
-          name={poke.name}
-          type={poke.type}
-          exp={poke.base_experience}
+          key={p.id}
+          id={p.id}
+          name={p.name}
+          type={p.type}
+          exp={p.base_experience}
         />
       );
     });
   }
 
   render() {
-    // console.log(this.props.pokeList);
-    return <div>{this.renderList()}</div>;
+    // console.log(this.renderPokemon());
+    return <div>{this.renderPokemon()}</div>;
   }
 }
 
