@@ -1,23 +1,16 @@
 import React, { Component } from "react";
-import Clicker from "./Clicker";
 // import Pokegame from "./Pokegame";
-
+// import Clicker from "./Clicker";
+import RollDice from "./RollDice";
 // pokedex Exercise
-// export class App extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <Pokegame />
-//       </div>
-//     );
-//   }
-// }
-
+// State Clicker Exercise
 export class App extends Component {
   render() {
     return (
       <div>
-        <Clicker />
+        {/* <Pokegame /> */}
+        {/* <Clicker /> */}
+        <RollDice />
       </div>
     );
   }
