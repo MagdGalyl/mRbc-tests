@@ -3,7 +3,8 @@ import React, { Component } from "react";
 // import Clicker from "./Clicker";
 // import RollDice from "./RollDice";
 // import Lottery from "./Lottery";
-import CoinContainer from "./CoinContainer";
+// import Lottery2 from "./Lottery2";
+// import CoinContainer from "./CoinContainer";
 
 // pokedex Exercise
 // State Clicker Exercise
@@ -16,7 +17,9 @@ export class App extends Component {
         {/* <Clicker /> */}
         {/* <RollDice /> */}
         {/* <Lottery /> */}
-        <CoinContainer />
+        {/* <Lottery2 />
+        <Lottery2 title={"Mini Daily"} numBalls={4} maxNum={10} /> */}
+        {/* <CoinContainer /> */}
       </div>
     );
   }
