@@ -5,6 +5,7 @@ import React, { Component } from "react";
 // import Lottery from "./Lottery";
 // import Lottery2 from "./Lottery2";
 // import CoinContainer from "./CoinContainer";
+import CoinFlip from "./CoinFlip";
 
 // pokedex Exercise
 // State Clicker Exercise
@@ -20,6 +21,7 @@ export class App extends Component {
         {/* <Lottery2 />
         <Lottery2 title={"Mini Daily"} numBalls={4} maxNum={10} /> */}
         {/* <CoinContainer /> */}
+        <CoinFlip />
       </div>
     );
   }
