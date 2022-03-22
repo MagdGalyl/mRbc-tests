@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import ColorsContainer from "./ColorsContainer";
+import TodoList from "./TodoList";
+// import ColorsContainer from "./ColorsContainer";
 // import Pokegame from "./Pokegame";
 // import Clicker from "./Clicker";
 // import RollDice from "./RollDice";
@@ -23,7 +24,8 @@ export class App extends Component {
         <Lottery2 title={"Mini Daily"} numBalls={4} maxNum={10} /> */}
         {/* <CoinContainer /> */}
         {/* <CoinFlip /> */}
-        <ColorsContainer />
+        {/* <ColorsContainer /> */}
+        <TodoList />
       </div>
     );
   }
