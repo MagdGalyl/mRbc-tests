@@ -22,7 +22,7 @@ export class Todo extends Component {
   handleUpdate(evt) {
     evt.preventDefault();
     this.props.updateTodo(this.props.id, this.state.task);
-    this.setState({ isEditing: this.toggleForm() });
+    this.setState({ isEditing: false });
   }
 
   handleChange(evt) {
