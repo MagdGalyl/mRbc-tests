@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import TodoList from "./TodoList";
+import Dogs from "./Dogs";
+// import { Route, Switch, NavLink, Link } from 'react-router-dom'
+
+// import JokeList from "./JokeList";
+// import DeckOfCards from "./DeckOfCards.js";
+// import TodoList from "./TodoList";
 // import ColorsContainer from "./ColorsContainer";
 // import Pokegame from "./Pokegame";
 // import Clicker from "./Clicker";
@@ -25,7 +30,10 @@ export class App extends Component {
         {/* <CoinContainer /> */}
         {/* <CoinFlip /> */}
         {/* <ColorsContainer /> */}
-        <TodoList />
+        {/* <TodoList /> */}
+        {/* <DeckOfCards /> */}
+        {/* <JokeList /> */}
+        <Dogs />
       </div>
     );
   }
